@@ -1,6 +1,6 @@
 # BlackJack!
 
-The goal of this game is to beat the dealer!
+Test your odds!
 
 ![Black Jack Screenshot](https://i.ibb.co/F5WCkV9/Screen-Shot-2020-11-19-at-12-58-33-AM.png)
 
