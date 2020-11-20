@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(0, 77, 38);
+    font-family: 'Luckiest Guy', cursive;
+    color:blueviolet;
+}
+
+h1 {
+    align-self: center;
+    font-size: 4vmin;
+    letter-spacing: 1px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    color: blueviolet;
+    border-radius: 4px;
+    height: 50px;
+    grid-row: 0;
+    grid-column: 2;
+}
+
+body {
+    display: grid;
+    margin: 0;
+    justify-items:center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25vh 5vh 10vh 5vh 25vh 20vh 10vh;
+    
+}
+
+p {
+    grid-row: 5;
+    grid-column: 1;
+    font-size: 4vmin;
+}
+
+button {
+    font-size: 3vmin;
+    padding: 15px 30px;
+    border-radius: 1px;
+    transform: scale(1);
+    color:white;
+    background-color:rgb(0, 0, 0);
+    
+}
+
+button:hover {
+    transform: scale(.8);
+    transition: all .2s;
+}
+
+
+#deal {
+    grid-row: 2;
+    grid-column: 1;
+    
+}
+
+#hit {
+    grid-row: 6;
+    grid-column: 2;
+    justify-self: left;
+    height: 50%;
+    font-size: 2fr;
+    padding: ;
+    
+}
+#stay {
+    grid-row: 6;
+    grid-column:2;
+    justify-self: end;
+    height: 50%;
+}
+
+.card{
+    font-size:3vmin;
+    
+}
+
+#dealer-container {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    place-items: center;
+    justify-self: center;
+    align-items: center;
+}
+
+#DealerPos {
+    grid-row: 1;    
+    grid-column:3;
+    font-size: 50px;
+}
+
+#dealer-total {
+    grid-row:2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    font-size: 3.5vmin;
+
+}
+
+#pot-total {
+    grid-row: 6;
+    grid-column: 2;
+    align-self: center;
+    justify-items: center;
+}
+
+
+#player-container {
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    place-items: center;
+    justify-self: center;
+    align-items: justify;
+    
+}
+
+#player-total {
+    grid-row: 6;
+    grid-column: 3;
+    grid-column-end: 4;
+    font-size: 3.5vmin;
+
+}
+
+#P1 {
+    grid-row: 5;    
+    grid-column: 3;
+    font-size: 50px;
+}
+
+#current-cash {
+    grid-row: 7;
+    grid-column: 2;
+    grid-template-columns: 3;
+    align-self: center;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 4vmin;
+}
+
+.chips {
+    flex: content;
+    grid-row: 6;
+    padding:50px;
+    background-color:#90C691;
+    border-radius: 10px;
+    border: 5px solid rgb(128, 16, 16);
+    margin: 1 5px;
+}
