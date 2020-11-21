@@ -13,6 +13,8 @@ Javascript
 
 # GamePlay
 
+https://nnguyen20.github.io/BlackJack/
+
 ##
 # Welcome to my blackjack game!
 
